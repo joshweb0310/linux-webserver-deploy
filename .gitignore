@@ -1,0 +1,32 @@
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Editor backups
+*~
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.bak
+
+# Python cache (Certbot sometimes generates these)
+__pycache__/
+*.pyc
+
+# Shell history (never commit this)
+.bash_history
+
+# Environment files
+.env
+*.env
+
+# Local config overrides
+config/local_*.conf
+
+# Certbot output (private keys should NEVER be committed)
+etc/letsencrypt/
